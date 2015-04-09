@@ -2,7 +2,7 @@ deployment:
   appengine:
     branch: master
     commands:
-      -  appcfg.py update .
+      -   $HOME/go_appengine/appcfg.py update .
 
 test:
   override:
