@@ -1,3 +1,9 @@
+deployment:
+  appengine:
+    branch: master
+    commands:
+      -  appcfg.py update .
+
 test:
   override:
     - exit 0
