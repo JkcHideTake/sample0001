@@ -13,7 +13,7 @@ deployment:
   appengine:
     branch: master
     commands:
-      -   $HOME/go_appengine/appcfg.py --oauth2 --noauth_local_webserver update .
+      -   $HOME/go_appengine/appcfg.py --oauth2_refresh_token=$APPENGINE_TOKEN update .
 
 test:
   override:
