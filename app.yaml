@@ -5,8 +5,6 @@ api_version: go1
 
 handlers:
 - url: /
-static_files: htdocs/index.html
-upload: /
-- url: /
-static_dir: htdocs
+- url: /htdocs
+  static_dir: htdocs
 
